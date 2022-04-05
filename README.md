@@ -1,5 +1,8 @@
 # Textprocessors
-Создаем файл file1.txt
+Создаем файл file1.txt с помощью такого приложения
+
+![image](https://user-images.githubusercontent.com/71909269/161757161-56b1e23b-90fc-4099-b419-b252d78bb6d8.png)
+
 
 ![image](https://user-images.githubusercontent.com/71909269/161692240-06229dcc-9d06-4bd3-93f4-6520f15e84d3.png)
 
