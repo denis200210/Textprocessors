@@ -9,3 +9,19 @@
 
 Запишем первые 10 строк из file2.txt в file3.txt. Командой:head -n 10 file2.txt >> file3.txt
 
+![image](https://user-images.githubusercontent.com/71909269/161693019-0e2ed892-de48-44c1-8dc7-f21e4f15b448.png)
+
+Выберем строки из file2.txt, содержащие “коко”, заменим в них “коко” на “куку” и запишем в file3.txt
+
+![image](https://user-images.githubusercontent.com/71909269/161693288-d1663f16-4b2e-4296-af0e-4d26eb03611f.png)
+
+Уникальные строки и вывести количество каждой строки
+sort file3.txt | uniq -c >> final.txt
+![image](https://user-images.githubusercontent.com/71909269/161753325-4c027398-0502-4e56-aa8f-e13614be44e8.png)
+
+rm -rf file3.txt
+mv final.txt file3.txt
+
+![image](https://user-images.githubusercontent.com/71909269/161754376-5b3300b5-2c11-4c51-a086-c1ec17547ba6.png)
+
+![image](https://user-images.githubusercontent.com/71909269/161705198-225e92c6-0912-4c7c-b3a5-68e470e2de3e.png)
